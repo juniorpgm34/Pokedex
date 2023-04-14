@@ -1,0 +1,132 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.pokeball {
+    opacity: 0.1;
+    position: absolute;
+    width: 6rem;
+    margin-left: 3.2rem;
+    margin-top: 0.8rem;
+}
+
+
+body {
+    background-image: url('/assets/img/bkpokemon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+h1 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: rgb(19, 18, 17);
+    display: none
+    
+
+}
+
+
+.search {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;    
+}
+
+.input-with-image {
+    background-image: url('/assets/img/lupa.png');
+    background-size: 0.9rem;
+    background-position:  right;
+    background-repeat: no-repeat;
+  }
+
+input {
+    border-radius: 1rem;
+    width: 10rem;
+    border-width: 0.1rem;
+    font-weight: 100;
+    font-size: 0.9rem;
+    height: 1rem;
+    padding: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+  }
+
+body {
+    background-color: #f6f8fc;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    background-color: white;
+    box-shadow:  6px 6px 17px rgb(0 0 0 / 8%);
+    align-items: center;
+}
+
+#load-more {
+    cursor: pointer;
+}
+
+.logo {
+    width: 8rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+#loadMoreButton {
+    cursor: pointer;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+
+    .search {
+        margin-right: 2.5rem;
+    }
+
+    .cabeçalho h1 {
+        display: block;
+    }
+
+    input {
+        width: 14rem;
+        padding: 0.7rem;
+    }
+
+    .input-with-image {
+        background-size: 1rem;
+      }
+
+
+    .cabeçalho {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 2rem;
+        padding: 1rem 0; 
+    }
+}
