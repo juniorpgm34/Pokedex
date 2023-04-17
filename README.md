@@ -16,17 +16,17 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 # :technologist: Tecnologias
  
-- [Html]
+- Html
  
-- [Css]
+- Css
 
-- [Java Script]
+- Java Script
 
-- [Fetch] 
+- Fetch
   
-- [http-server]
+- Http-server
  
-- [Typescript]
+- Typescript
 
 # :warning: Alertas
 
