@@ -2,7 +2,7 @@
   <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
   
 # :computer: Projeto
-Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado. Toda essa construção visual só foi possível graças ao [layout](https://www.figma.com/file/XzpoBF2xUaZPJm4C8Di1qC/Prova-de-Teste) proposto e as informções detalhadas dos pokemons foi devido ao uso da API REST [PokéApi](https://pokeapi.co/).
+Esse projeto tem como objetivo criar um site de pokemons listados da Poke API monstrando os tanto dados simples dos pokemons como dos detalhes dos atributos quando clica sobre eles, também de maneira responsiva.
 
 # :pushpin: Recursos
 
