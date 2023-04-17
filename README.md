@@ -1,9 +1,6 @@
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
   
-  <video src='https://user-images.githubusercontent.com/29473781/180622914-11e42c5a-6d48-40f6-8ca5-71f0de600fb8.mp4' />
-</p>
-
 # :computer: Projeto
 Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado. Toda essa construção visual só foi possível graças ao [layout](https://www.figma.com/file/XzpoBF2xUaZPJm4C8Di1qC/Prova-de-Teste) proposto e as informções detalhadas dos pokemons foi devido ao uso da API REST [PokéApi](https://pokeapi.co/).
 
