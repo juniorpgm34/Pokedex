@@ -2,7 +2,7 @@
   <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
   
 # :computer: Projeto
-Esse projeto tem como objetivo criar um site de pokemons listados da Poke API monstrando os tanto dados simples dos pokemons como dos detalhes dos atributos quando clica sobre eles, também de maneira responsiva.
+Esse projeto tem como objetivo criar um site como uma pokedex da Poke API monstrando tanto dados simples dos pokemons como dos detalhes dos atributos quando clica sobre eles, também de maneira responsiva.
 
 # :pushpin: Recursos
 
