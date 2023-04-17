@@ -16,17 +16,17 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 # :technologist: Tecnologias
  
-- [Axios](https://axios-http.com/ptbr/docs/intro)
-
-- [Material-UI](https://mui.com/)
+- [Html]
  
-- [React](https://pt-br.reactjs.org/)
+- [Css]
 
-- [React Router](https://reactrouter.com/)
+- [Java Script]
 
-- [http-server](https://styled-components.com/)
+- [Fetch] 
+  
+- [http-server]
  
-- [Typescript](https://www.typescriptlang.org/)
+- [Typescript]
 
 # :warning: Alertas
 
