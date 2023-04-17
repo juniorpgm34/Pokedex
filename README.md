@@ -1,47 +1,55 @@
+<p align="center">
+  <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
+  
+  <video src='https://user-images.githubusercontent.com/29473781/180622914-11e42c5a-6d48-40f6-8ca5-71f0de600fb8.mp4' />
+</p>
 
+# :computer: Projeto
+Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado. Toda essa construção visual só foi possível graças ao [layout](https://www.figma.com/file/XzpoBF2xUaZPJm4C8Di1qC/Prova-de-Teste) proposto e as informções detalhadas dos pokemons foi devido ao uso da API REST [PokéApi](https://pokeapi.co/).
 
- pokedex.mp4 
-💻 Projeto
-Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado. Toda essa construção visual só foi possível graças ao layout proposto e as informções detalhadas dos pokemons foi devido ao uso da API REST PokéApi.
+# :pushpin: Recursos
 
-📌 Recursos
-✔️ Listagem de pokemons;
+:heavy_check_mark: Listagem de pokemons;
 
-✔️ Filtro de pokemon pelo nome;
+:heavy_check_mark: Filtro de pokemon pelo nome;
 
-✔️ Reponsividade;
+:heavy_check_mark: Reponsividade;
 
-✔️ Detalhes do pokemon selecionado;
+:heavy_check_mark: Detalhes do pokemon selecionado;
 
-✔️ Carregamento por lista.
+:heavy_check_mark: Carregamento por lista.
 
-🧑‍💻 Tecnologias
-Axios
+# :technologist: Tecnologias
+ 
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
-Material-UI
+- [Material-UI](https://mui.com/)
+ 
+- [React](https://pt-br.reactjs.org/)
 
-React
+- [React Router](https://reactrouter.com/)
 
-React Router
+- [React-icons](https://react-icons.github.io/react-icons/)
 
-React-icons
+- [Styled-components](https://styled-components.com/)
+ 
+- [Typescript](https://www.typescriptlang.org/)
 
-Styled-components
+# :warning: Alertas
 
-Typescript
+* Algumas informações estão em inglês, por exemplo sobre o pokemon, porque a api ainda não disponibilizou a linguagem pt-BR de forma oficial, dessa forma optei por colocar algumas informações em inglês.
 
-⚠️ Alertas
-Algumas informações estão em inglês, por exemplo sobre o pokemon, porque a api ainda não disponibilizou a linguagem pt-BR de forma oficial, dessa forma optei por colocar algumas informações em inglês.
+* Listagem dos pokémons está limitada até 700 pokemons, mas pode ser alterada dentro do código.
 
-Listagem dos pokémons está limitada até 700 pokemons, mas pode ser alterada dentro do código.
+# :inbox_tray: Instalação e execução
 
-📥 Instalação e execução
-Faça um clone e acesse o diretório:
-
-git clone git@github.com:Matheussandi/Pokedex.git && cd Pokedex
 Instala as dependências:
-
+```
 yarn
-Executa:
+```
 
+Executa:
+```
 yarn start
+```
+
