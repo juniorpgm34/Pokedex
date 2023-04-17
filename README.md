@@ -36,7 +36,7 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 * Algumas informações estão em inglês, por exemplo sobre o pokemon, porque a api ainda não disponibilizou a linguagem pt-BR de forma oficial, dessa forma optei por colocar algumas informações em inglês.
 
-* Listagem dos pokémons está limitada até 700 pokemons, mas pode ser alterada dentro do código.
+* Listagem dos pokémons está limitada até 386 pokemons, mas pode ser alterada dentro do código.
 
 # :inbox_tray: Instalação e execução
 
