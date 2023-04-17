@@ -76,9 +76,7 @@ function loadMorePokemonItens(offset) {
         </section>
       `).join('');
         
-      setTimeout(() => {
         pokemonList.innerHTML += newHtml;
-      }, 1000);
     });
   }
   
