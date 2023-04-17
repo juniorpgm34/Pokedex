@@ -13,6 +13,29 @@
     margin-top: 0.8rem;
 }
 
+.cardAnimation:hover {
+    animation: bounce 0.8s linear;
+    cursor: pointer;
+}    
+    
+@keyframes bounce {
+        20% {
+            transform: translateY(-6px);
+        }
+        40% {
+            transform: translateY(0px);
+        }
+    
+        80% {
+            transform: translateY(-2px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+}
+
+
+
 
 body {
     background-image: url('/assets/img/bkpokemon.jpg');
@@ -72,10 +95,6 @@ body {
     background-color: white;
     box-shadow:  6px 6px 17px rgb(0 0 0 / 8%);
     align-items: center;
-}
-
-#load-more {
-    cursor: pointer;
 }
 
 .logo {

@@ -1,7 +1,7 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-const maxRecords = 386;
+const maxRecords = 151;
 const limit = 10;
 let offset = 0;
 
@@ -9,7 +9,7 @@ function loadPokemonItens(offset, limit) {
     // Requisição por index simplificada usando Map
     pokeApi.getPokemons(offset, limit).then((pokemons = [] ) => {
         const newHtml = pokemons.map((pokemon) => `
-        <div id="load-more " onclick="redirectToCard('${encodeURIComponent(pokemon.number)}')">
+        <div id="load-more " class="cardAnimation" onclick="redirectToCard('${encodeURIComponent(pokemon.number)}')">
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
@@ -56,7 +56,7 @@ const searchInput = document.querySelector('#search');
 
 searchInput.addEventListener('input', () => {
   const searchTerm = searchInput.value;
-  
+
   if (searchTerm === '') {
     // Se o campo de pesquisa estiver vazio, mostrar todos os pokemons novamente
     pokemonList.innerHTML = '';
@@ -69,7 +69,7 @@ searchInput.addEventListener('input', () => {
     pokeApi.getPokemons(0, maxRecords).then((pokemons = []) => {
       const filteredPokemons = pokemons.filter(pokemon => pokemon.name.includes(searchTerm));
       const newHtml = filteredPokemons.map((pokemon) => `
-        <div id="load-more" onclick="redirectToCard('${encodeURIComponent(pokemon.number)}')">
+        <div id="load-more" class="cardAnimation" onclick="redirectToCard('${encodeURIComponent(pokemon.number)}')">
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
