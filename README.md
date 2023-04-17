@@ -24,9 +24,7 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 - [React Router](https://reactrouter.com/)
 
-- [React-icons](https://react-icons.github.io/react-icons/)
-
-- [Styled-components](https://styled-components.com/)
+- [http-server](https://styled-components.com/)
  
 - [Typescript](https://www.typescriptlang.org/)
 
@@ -40,11 +38,11 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 Instala as dependências:
 ```
-yarn
+npm install -g http-server
 ```
 
 Executa:
 ```
-yarn start
+http-server
 ```
 
