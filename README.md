@@ -14,8 +14,6 @@ Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o po
 
 :heavy_check_mark: Detalhes do pokemon selecionado;
 
-:heavy_check_mark: Carregamento por lista.
-
 # :technologist: Tecnologias
  
 - [Axios](https://axios-http.com/ptbr/docs/intro)
