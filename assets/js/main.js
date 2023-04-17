@@ -1,7 +1,7 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-const maxRecords = 151;
+const maxRecords = 386;
 const limit = 10;
 let offset = 0;
 
@@ -56,7 +56,7 @@ const searchInput = document.querySelector('#search');
 
 searchInput.addEventListener('input', () => {
   const searchTerm = searchInput.value;
-
+    
   if (searchTerm === '') {
     // Se o campo de pesquisa estiver vazio, mostrar todos os pokemons novamente
     pokemonList.innerHTML = '';
