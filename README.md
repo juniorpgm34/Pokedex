@@ -25,8 +25,6 @@ Esse projeto tem como objetivo criar um site como uma pokedex da Poke API monstr
 - Fetch
   
 - Http-server
- 
-- Typescript
 
 # :warning: Alertas
 
