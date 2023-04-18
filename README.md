@@ -1,9 +1,8 @@
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
-  
- <iframe width="560" height="315" src="https://youtu.be/AaAj8lXFgkQ" frameborder="0" allowfullscreen></iframe>
-
 </p> 
+    
+ <iframe width="560" height="315" src="https://youtu.be/AaAj8lXFgkQ" frameborder="0" allowfullscreen></iframe>
   
 # :computer: Projeto
 Esse projeto tem como objetivo criar um site como uma pokedex da Poke API monstrando tanto dados simples dos pokemons como dos detalhes dos atributos quando clica sobre eles, também de maneira responsiva.
