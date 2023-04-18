@@ -1,7 +1,7 @@
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" />
   
-<video src='https://user-images.githubusercontent.com/82614340/232920118-694faa15-37e3-4d9f-a12a-5d2ee7b6e52e.mp4' />
+<video align="center" src='https://user-images.githubusercontent.com/82614340/232920118-694faa15-37e3-4d9f-a12a-5d2ee7b6e52e.mp4' />
 
 </p>
 
