@@ -181,7 +181,7 @@ p {
 /* Barra de Status */
 #divAtributo0 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 
@@ -189,7 +189,7 @@ p {
   
 #divAtributo1 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 
@@ -197,7 +197,7 @@ p {
   
 #divAtributo2 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 
@@ -205,7 +205,7 @@ p {
   
 #divAtributo3 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 
@@ -213,7 +213,7 @@ p {
   
 #divAtributo4 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 
@@ -221,7 +221,7 @@ p {
   
 #divAtributo5 {
     height: 0.3rem;
-    transition: width 1.8s ease-in-out; /* Adicionando a transição */
+    transition: width 0.5s ease-in-out; /* Adicionando a transição */
     margin-bottom: 1.3rem;
     margin-right: 6rem;
 

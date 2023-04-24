@@ -81,3 +81,25 @@ function loadMorePokemonItens(offset) {
   }
   
 
+// Adiciona a classe de animação "animated" quando a página estiver pronta
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll(".divAtributo").forEach(function(bar) {
+    bar.classList.add("animated");
+  });
+});
+
+// Adiciona a classe de animação "animated" quando a seção de atributos estiver visível na tela
+window.addEventListener("scroll", function() {
+  const section = document.querySelector(".divAtributo");
+  if (isElementInViewport(section)) {
+    section.querySelectorAll(".divAtributo").forEach(function(bar) {
+      bar.classList.add("animated");
+    });
+  }
+});
+
+// Função auxiliar para verificar se um elemento está visível na tela
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return rect.top >= 0 && rect.bottom <= window.innerHeight;
+}
